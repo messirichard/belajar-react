@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../../layout/Header';
+import Header from '../../layout/header/Header';
 
 
 class HomeIndex extends Component {
