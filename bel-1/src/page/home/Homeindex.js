@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Header from '../../layout/header/Header';
+import Column1 from '../../layout/Column1';
 
 
 class HomeIndex extends Component {
     render() {
         return (
         <div className="App">
-            <Header />
+            <Column1 />
         </div>
         )
     }

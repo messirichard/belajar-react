@@ -1,15 +1,17 @@
 header.homepage_head{
 	position: relative;
-	top: inherit; left: inherit;	
+	top: inherit; 
+	left: inherit;	
 }
-header.home.homepage_head{
-	padding: 0;
-	min-height: 90px; height: auto; width: 100%;
+header.homepage_head{
+	padding: 8px 0;
+	min-height: 90px; 
+	height: auto; 
+	width: 100%;
 	background-color: #fff;
-
 	position: absolute;
-	top: 0px; left: 0px;
-	
+	top: 0px; 
+	left: 0px; 
 	z-index: 2;
 	.logosn-headers{
 		padding-top: 0.6em;
@@ -17,21 +19,26 @@ header.home.homepage_head{
 	.tops_head{
 		.phones_headr{
 			a{
-				text-decoration: none;
-				font-size: 12px; font-weight: 700; color: #fff;
+				text-decoration: none; font-size: 12px;  font-weight: 700;  color: #fff;
 			}
 			a:hover,
 			a:focus{
 				text-decoration: none;
 			}
 			background-color: #767676;
-			font-size: 12px; font-weight: 700; color: #fff;
+			font-size: 12px; 
+			font-weight: 700; 
+			color: #fff;
 		}
 		.languages_text{
-			font-size: 12px; font-weight: 600; color: #59595c;
+			font-size: 12px;
+			font-weight: 600;
+			color: #59595c;
 			a{
 				text-decoration: none;
-				font-size: 12px; font-weight: 600; color: #59595c;	
+				font-size: 12px; 
+				font-weight: 600; 
+				color: #59595c;	
 			}
 			a:focus,
 			a:hover,
@@ -47,11 +54,15 @@ header.home.homepage_head{
 			li{
 				padding-left: 10px;
 				padding-right: 10px;
-				margin: 0; margin-right: 0;
+				margin: 0; 
+				margin-right: 0;
 				a{
 					text-transform: uppercase;
-					font-size: 15px; font-weight: 500; color: #848486;
-					padding-left: 0; padding-right: 0;
+					font-size: 14px; 
+					font-weight: 500; 
+					color: #848486;
+					padding-left: 0; 
+					padding-right: 0;
 				}
 			}
 			li:last-child{
@@ -61,7 +72,8 @@ header.home.homepage_head{
 			li:hover,
 			li:focus{
 				a{
-					text-decoration: none; color: #d41a21;
+					text-decoration: none; 
+					color: #d41a21;
 				}
 			}
 		}

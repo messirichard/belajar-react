@@ -5,7 +5,7 @@ import './header.scss';
 class Header extends Component{
     render(){
       return(
-        <header className="head  homepage_head ">
+        <header className="head homepage_head">
           <div className="prelatife container-fluid inner-header">
             <div className="row">
               <div className="col-md-3 col-sm-4">
@@ -33,7 +33,7 @@ class Header extends Component{
                   </div>
                 </nav>
                 <div className="tops_head text-right pb-2 d-none d-sm-block">
-                  <div className="d-inline-block text-right phones_headr p-1 pl-2 pr-2 rounded">
+                  <div className="d-inline-block text-right phones_headr p-1 pl-2 pr-2 rounded mr-3">
                     <i className="fa fa-phone fa-flip-horizontal"></i> &nbsp;+62 031-51500022  / <a href="https://wa.me/6287853008666">Whatsapp +62 878-5300-8666</a> 
                   </div>
                   <div className="d-inline-block languages_text text-right padding-left-15">
